@@ -1,0 +1,9 @@
+.opg_products_favourites i{
+    display: block;
+    color: #D92139 ;
+    float: right;
+}
+
+.opg_products_favourites .card{
+    margin-bottom: 1rem;
+}

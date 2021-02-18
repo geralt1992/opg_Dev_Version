@@ -1,0 +1,222 @@
+
+#review_banner{
+    width: 100%;
+    height: 30vh;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ) ,url('../avatars/bg1.jpg');  
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.review_banner .title{
+    text-align: center;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: bolder;
+    letter-spacing: 8px;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    width: 80%;
+}
+
+
+
+
+/*-------------------------------------------------------------------REVIEW-----------------------------------------------------------------------------------------*/
+
+.review{
+    height: 110vh !important;
+}
+
+
+.review form{
+    position: relative;
+    font-weight: bolder;
+    letter-spacing: 8px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    width: 80%;
+    padding:4.5rem !important;
+}
+
+.review label{
+   font-size: 1.3rem !important;
+}
+
+.review input {
+   border-left: 9px solid #D92139;
+}
+
+.form-control{
+    font-size:20px;
+}
+
+.review select{
+   border-left: 9px solid #D92139;
+}
+
+.review textarea{
+   border-left: 9px solid #D92139;
+}
+
+.review .form-group{
+    padding: 1rem;
+}
+
+
+.review button{
+    color: white !important;
+    text-transform: uppercase;
+}
+
+
+
+
+.rating{
+    transform: rotateY(180deg);
+}
+
+.rating input{
+    display: none;
+}
+
+.rating label{
+    display: inline;
+    cursor: pointer;
+    widows: 150px;
+    color: white;
+}
+
+.rating label:before{
+   content: '\f005';
+   font-family: fontAwesome;
+   position: relative;
+   display: inline-block;
+   font-size: 25px;
+   color: black;
+}
+
+.rating label::after{
+   content: '\f005';
+   font-family: fontAwesome;
+   position: relative;
+   display: inline-block;
+   font-size: 25px;
+   color: orange;
+   right: 1.95rem;
+   opacity: 0;
+   transition: .5s;
+   text-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+}
+
+.rating label:hover::after,
+.rating label:hover ~ label::after,
+.rating input:checked ~ label::after{
+   opacity: 1;
+}
+
+
+@media screen and (max-width: 1050px){
+.review{
+    height: 180vh !important;
+}
+
+.form-control{
+    font-size:20px;
+}
+
+.review_banner .title{
+    font-size: 1.5rem;
+}
+.review form{
+    padding:0 !important;
+    margin-right: 10rem;
+}
+
+.review label{
+   font-size: 0.7rem;
+}
+
+.review button{
+    margin-bottom: 3rem;
+    padding: 1rem !important;
+}
+
+.rating label:before{
+   content: '\f005';
+   font-family: fontAwesome;
+   position: relative;
+   display: block;
+   font-size: 15px;
+   color: black;
+}
+
+.rating label::after{
+   content: '\f005';
+   font-family: fontAwesome;
+   position: relative;
+   display: block;
+   font-size: 15px;
+   color: orange;
+   right: .05rem;
+   bottom: 1.4rem;
+   opacity: 0;
+   transition: .5s;
+   text-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+}
+}
+
+
+@media screen and (max-width: 450px){
+.review{
+    height: 300vh !important;
+}
+
+.form-control{
+    font-size:20px;
+}
+
+.review_banner .title{
+    font-size: 1.5rem;
+}
+.review form{
+    padding:0 !important;
+    margin-right: 10rem;
+}
+
+.review label{
+   font-size: 0.7rem;
+}
+
+.review button{
+    margin-bottom: 3rem;
+    padding: 1rem !important;
+}
+
+.rating label:before{
+   content: '\f005';
+   font-family: fontAwesome;
+   position: relative;
+   display: block;
+   font-size: 15px;
+   color: black;
+}
+
+.rating label::after{
+   content: '\f005';
+   font-family: fontAwesome;
+   position: relative;
+   display: block;
+   font-size: 15px;
+   color: orange;
+   right: .05rem;
+   bottom: 1.4rem;
+   opacity: 0;
+   transition: .5s;
+   text-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+}
+
+}

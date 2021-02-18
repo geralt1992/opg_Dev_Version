@@ -1,0 +1,17 @@
+.opg_products i{
+    display: block;
+    color: #D92139 ;
+    float: right;
+}
+
+.opg_products .card{
+    margin-bottom: 1rem;
+}
+
+.user_opg_products input{
+    border-left: 9px solid #D92139;
+}
+
+.user_opg_products select{
+    border-left: 9px solid #D92139;
+}

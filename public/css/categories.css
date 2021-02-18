@@ -1,0 +1,101 @@
+/*------------------------------------------------------------------- BANNER---------------------------------------------------------------------------------------------*/
+
+#categories_banner{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ) ,url('../avatars/bg1.jpg'); 
+    width: 100%;
+    height: 30vh;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+.categories_banner .title{
+    text-align: center;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: bolder;
+    letter-spacing: 8px;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    width: 80%;
+}
+
+/*--------------------------------------------------------------------KATEGORIJE---------------------------------------------------------------------------------------------*/
+
+.categories a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.categories i{
+    display: inline;
+    color: #D92139;
+    float: right;
+    margin-bottom: -1rem;
+}
+
+
+
+.categories .card{
+    margin-bottom: 2rem;
+}
+
+.categories .btn{
+    padding: .2rem !important;
+    font-size: 1rem !important;
+    color: #fff;
+}
+
+.categories_search form{
+    position: relative;
+    font-weight: bolder;
+    letter-spacing: 8px;
+    color: black;
+    width: 100%;
+   
+}
+
+.categories_search input{
+    border-left: 9px solid #D92139;
+}
+
+.categories_search select{
+    border-left: 9px solid #D92139;
+}
+
+.categories_search .form-group{
+    padding: 1rem;
+}
+
+.categories_search button{
+    color: white !important;
+    text-transform: uppercase;
+}
+
+
+.product_search:hover{
+    transition: transform .5s; /* Animation */
+  }
+  
+  
+  .product_search:hover{
+    transform: scale(1.1);
+  }
+  
+/*-------------------------------------------------------------------MEDIA---------------------------------------------------------------------------------------------*/
+@media screen and (max-width: 560px){
+
+.categories_banner .title{
+    font-size: 1rem;
+}
+
+}
+
+
+@media screen and (max-width: 800px) {
+    .my_img {
+      height: 55vw !important;
+    }
+  
+  }

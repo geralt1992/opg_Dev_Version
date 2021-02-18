@@ -1,0 +1,40 @@
+#help_banner{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ) ,url('../avatars/bg1.jpg'); 
+    width: 100%;
+    height: 30vh;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+.help_banner .title{
+    text-align: center;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: bolder;
+    letter-spacing: 8px;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    width: 80%;
+}
+
+.help{
+    height: 60vh;
+}
+
+@media screen and (max-width:1050px){
+.help_banner .title{
+    font-size: 3rem;
+}
+}
+
+@media screen and (max-width: 560px){
+.help{
+    height: 60vh;
+}
+
+.help_banner .title{
+    font-size: 1rem;
+}
+}

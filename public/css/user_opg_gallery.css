@@ -1,0 +1,17 @@
+@media screen and (max-width:1050px){
+    .user_image{
+      height: 150vh;
+    }
+    }
+    
+    @media screen and (max-width:770){
+    .user_image{
+      height: 350vh  !important;
+    }
+    }
+    
+    @media screen and (max-width: 560px){
+    .user_image{
+      height: 500vh;
+    }
+    }

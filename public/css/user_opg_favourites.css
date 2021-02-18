@@ -1,0 +1,17 @@
+.best_opgs1 hr{
+    border-top: 1px solid grey;
+}
+
+.best_opgs1 img{
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+    border-radius: 20%;
+    margin-right: 5%;
+}
+
+.best_opgs1 i{
+    display: block;
+    font-size: 25px;
+    color: #D92139;
+}

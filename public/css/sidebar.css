@@ -1,0 +1,38 @@
+.user_main a{
+    text-decoration: none;
+    color: black;
+}
+
+.user_main a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.user_main i{
+   display: block;
+   font-size: 1rem;
+}
+
+@media screen and (max-width:1050px){
+.user_main_banner .title{
+    font-size: 3rem;
+}
+    
+.user_main i{
+    display: block;
+    font-size: 3rem;
+    color:black;
+}
+}
+
+@media screen and (max-width: 560px){
+.user_main_banner .title{
+    font-size: 1rem;
+}
+
+.user_main i{
+    display: block;
+    font-size: 3rem;
+    color:black;
+}
+}

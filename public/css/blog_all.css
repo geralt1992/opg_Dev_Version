@@ -1,0 +1,103 @@
+/*-------------------------------------------------------------------BLOG ALL BANNER---------------------------------------------------------------------------------------------*/
+
+#blog_all_banner{
+    width: 100%;
+    height: 30vh;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ) ,url('../avatars/bg1.jpg'); 
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.blog_all_banner .title{
+    text-align: center;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: bolder;
+    letter-spacing: 8px;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    width: 80%;
+}
+
+/*--------------------------------------------------------------------BLOG ALL---------------------------------------------------------------------------------------------*/
+
+@media screen and (max-width:1050px){
+.blog_all_banner .title{
+        font-size: 1rem;
+    }
+    }
+    
+@media screen and (max-width: 560px){
+.blog_all_banner .title{
+    font-size: 1rem;
+}
+}
+
+/*-------------------------------------------------------------------BLOG ALL CARDS---------------------------------------------------------------------------------------------*/
+:root{
+--gradient-color: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) );
+}
+
+.blog_all  a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.blog_all .card i{
+    display: inline-block;
+    margin: 3%;
+    font-size: 1.4rem ;
+    font-weight: bold;
+    color: #fff ;
+}
+
+.image-data{
+    height: 25rem;
+    position: relative;
+    z-index: 1;
+}
+
+/*-----------------------------BG IMAGES OF BLOG ALL---------------------------------*/
+
+.background-image{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    transition: transform .5s;
+}
+
+/*------------------------------------------------------------------------*/
+
+.cta a{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    color: #D92139;
+    position: relative;
+}
+
+.cta a::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -.5rem;
+    width: 100%;
+    height: 3px;
+    background: #D92139;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform .3s;
+}
+
+.blog_all .card{
+    flex-direction: row ;
+    max-height: 65rem;
+    margin-top: 1rem ;
+}

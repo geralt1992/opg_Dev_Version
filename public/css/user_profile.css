@@ -1,0 +1,54 @@
+
+/*--------------------------------------------------------------------USER_MAIN---------------------------------------------------------------------------------------------*/
+
+.user_main{
+    height: auto;
+}
+
+.btn-avatar{
+    background-color: tomato ;
+    padding: 1px !important;
+    font-size: 1rem !important;
+}
+
+.user_search form{
+    position: relative;
+    font-weight: bolder;
+    letter-spacing: 8px;
+    color: black;
+    width: 100%;
+}
+
+.user_search label{
+   font-size: 1.1rem;
+}
+
+.user_search input{
+   border-left: 9px solid #D92139;
+}
+
+.user_search textarea{
+   border-left: 9px solid #D92139;
+}
+
+.form-control{
+   font-size:20px;
+}
+
+.user_search select{
+   border-left: 9px solid #D92139;
+}
+
+.user_search .form-group{
+    padding: 1rem;
+}
+.user_search .center{
+    text-align: center;
+}
+
+.user_search button{
+    color: white !important;
+    text-transform: uppercase;
+}
+
+

@@ -1,0 +1,180 @@
+/*------------------------------------------------------------------- BANNER---------------------------------------------------------------------------------------------*/
+
+#search_banner{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ) ,url('../avatars/bg1.jpg'); 
+    width: 100%;
+    height: 30vh;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+.search_banner .title{
+    text-align: center;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: bolder;
+    letter-spacing: 8px;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    width: 80%;
+}
+
+
+/*-------------------------------------------------------------------SEARCH---------------------------------------------------------------------------------------------*/
+
+.search{
+    height: 80vh;
+}
+.search form{
+    position: relative;
+    font-weight: bolder;
+    letter-spacing: 8px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    width: 80%;
+    padding:4.5rem !important;
+}
+
+.search label{
+   font-size: 1.1rem;
+}
+
+.search input{
+   border-left: 9px solid #D92139;
+}
+
+.form-control{
+    font-size:20px;
+}
+
+.search select{
+   border-left: 9px solid #D92139;
+}
+
+.search .form-group{
+    padding: 1rem;
+}
+.search .center{
+    text-align: center;
+}
+
+.search button{
+    color: white !important;
+    text-transform: uppercase;
+}
+
+
+.product_search:hover{
+    transition: transform .5s; /* Animation */
+  }
+  
+  
+  .product_search:hover{
+    transform: scale(1.1);
+  }
+
+
+/*-------------------------------------------------------------------MEDIA---------------------------------------------------------------------------------------------*/
+
+
+@media screen and (max-width: 1050px){
+.search{
+    height: 50vh;
+}
+
+.form-control{
+    font-size:10px;
+}
+
+.search_banner .title{
+    font-size: 1.5rem;
+}
+.search form{
+    padding:0 !important;
+    margin-right: 10rem;
+}
+
+.search label{
+   font-size: 0.7rem;
+}
+
+.search button{
+    margin-bottom: 3rem;
+    padding: 1rem !important;
+}
+
+
+  .subtitle{
+    display:none;
+  }
+  
+
+  .my_img{
+    max-width:100%;
+  }
+  
+  .down{
+  margin-top: 25vh !important;
+  }
+  
+  .form_product_search{
+      margin-top: 5rem;
+  }
+
+
+
+}
+
+
+@media screen and (max-width: 560px){
+.search{
+    height: 120vh;
+}
+
+.my_img{
+    max-width:100%;
+    
+  }
+  
+  .down , .drop_down{
+  margin-top: 60vh !important;
+  }
+
+.form-control{
+    font-size:20px;
+}
+
+.search_banner .title{
+    font-size: 1.5rem;
+}
+.search form{
+    padding:0 !important;
+    margin-right: 10rem;
+}
+
+.search label{
+   font-size: 0.7rem;
+}
+
+.search button{
+    margin-bottom: 3rem;
+    padding: 1rem !important;
+}
+
+.my_img{
+    max-width:100%;
+  }
+  
+  .down{
+  margin-top: 20vh !important;
+  }
+  
+  .subtitle{
+    display:none;
+  }
+
+}
